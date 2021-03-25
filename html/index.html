@@ -1,0 +1,51 @@
+<html>
+<head>
+    <script src="../js/jquery-1.10.2.min.js"></script>
+<title>Network / Tarayıcılar | Anlatım</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    
+<body>
+    <div id="container">
+        <div id="success-box">
+          <div id="btn1" class="dot"></div>
+          <div id="btn2" class="dot two"></div>
+
+      <div id="p1" class="mutlu">
+        <div class="face">
+            <div class="eye"></div>
+            <div class="eye right"></div>
+            <div class="mouth happy"></div>
+          </div>
+          <div class="shadow scale"></div>
+      </div>
+
+      <div id="p2" class="uzgun" style="display: none;"> 
+    <div class="face2">
+        <div class="eye"></div>
+        <div class="eye right"></div>
+        <div class="mouth sad"></div>
+      </div>
+      <div class="shadow move"></div>
+      </div>
+
+      <script>
+        $("#btn1").click(function(){
+           $("#p1").hide(1000);
+           $("#p2").show(1000);
+        });
+        </script><br /><br />
+
+<script>
+    $("#btn2").click(function(){
+       $("#p2").hide(1000);
+       $("#p1").show(1000);
+    });
+    </script><br /><br />
+
+          <div class="message"><h1 class="alert">Network & Tarayıcılar</h1><p>Network & Tarayıcılar Konu Anlatımı</p></div>
+          <button onclick="window.location.href='network.html'" class="button-box" name="network" style="width: 15%; height: 58; left: 720px;"><h1 class="green" style="font-size: 100%;">Network Konu Anlatımı</h1></button>
+          <button onclick="window.location.href='Tarayıcılar.html'" class="button-box" name="tarayıcı" style="width: 15%; height: 58; left: 1080px;"><h1 class="green" style="font-size: 100%;">Tarayıcı Konu Anlatımı</h1></button>
+        </div>
+        </body>
+    </head>
+</html>
